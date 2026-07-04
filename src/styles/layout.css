@@ -367,3 +367,8 @@ footer.site-foot a {
         transform: translateY(-4vw);
     }
 }
+
+.site-logo {
+  height: 32px;
+  width: auto;
+}
