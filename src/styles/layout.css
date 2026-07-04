@@ -387,3 +387,17 @@ body.dark .logo-dark {
     width: auto;
     display: block;
 }
+
+.site-head-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;   /* prueba este valor */
+    padding: 0;
+}
+
+.site-head-logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+}
