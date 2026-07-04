@@ -368,7 +368,20 @@ footer.site-foot a {
     }
 }
 
+.logo-dark {
+  display: none;
+}
+
+body.dark .logo-light {
+  display: none;
+}
+
+body.dark .logo-dark {
+  display: inline;
+}
+
 .site-head-logo img {
-  height: 32px;
-  width: auto;
+    height: 42px;   /* prueba 42, 48 o 52 */
+    width: auto;
+    display: block;
 }
